@@ -1,0 +1,488 @@
+/** Add css rules here for your application. */
+
+
+.labelButton {
+	cursor: pointer;	
+}
+
+.imageButton {
+	cursor: pointer;	
+}
+
+.largeLabel {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo {
+	position: absolute;
+	left: 0px;
+	top: 3px;
+	z-index: 999;	
+	cursor: pointer;			
+}
+
+.mainPanel {
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.headerTitle {
+	font-family: Verdana';
+	font-size: 16px;
+	color: white;	
+	padding-left: 126px;
+}
+
+.greetingsLabel {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+.logoutButton {
+	cursor: pointer;
+	color: #056f96;
+	font-family: Verdana;
+	font-size: 11px;
+	text-decoration: underline;
+	padding-right: 20px;	
+}
+
+.greenBar {
+	width: 100%;
+	height: 48px;	
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#94BC38', endColorstr='#BCE460');
+	background: -webkit-gradient(linear, left, right, from(#94BC38), to(#BCE460));
+	background: -moz-linear-gradient(left, #94BC38, #BCE460);
+}
+
+.masthead {
+	width: 100%;
+	height: 66px;
+	border-top: 3px solid #2B2622;
+}
+
+.tasksPanel {
+	padding-top: 30px;
+}
+
+.newTaskButton {
+	padding-left: 20px;
+}
+
+.filterBar {
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FDF3D7', endColorstr='#FDE5AC');
+	background: -webkit-gradient(linear, top, bottom, from(#FDF3D7), to(#FDE5AC));
+	background: -moz-linear-gradient(top, #FDF3D7, #FDE5AC);
+	border-top: 1px solid #FDE5AC;
+	border-bottom: 1px solid #FDE5AC;
+	width: 100%;
+	height: 42px;
+	padding-right: 240px;
+}
+
+.tasksFilterPanel {
+	width: 100%;
+	height: 62px;
+
+}
+
+.filterPanelLeftEdge {
+	vertical-align: bottom;	
+}
+
+.filterPanelRightEdge {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 99; 		
+}
+
+.dropDownFilterLabel {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #6b2a02;	
+}
+
+.dropDownFilter {
+	font-family: Verdana;
+	font-size: 12px;	
+}
+
+.dropDownPanel {
+	padding-right: 8px;
+	padding-left: 8px;	
+}
+
+.searchBox {
+	background-color: white;
+	color: black;	
+	opacity: 1.0;
+	font-family: Verdana;
+	font-size: 14px;	
+}
+
+.searchBoxEmpty {
+	background-color: white;
+	color: #9a9898;		
+	font-family: Verdana;
+	font-size: 14px;	
+}
+
+.searchPanel {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	z-index: 99;		
+}
+
+.tasksTableHeader {
+	font-family: Verdana;
+	font-color: #000000;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.loginPanel {
+	z-index: 9999;	
+}
+
+.loginLabel {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.loginText {
+	
+}
+
+.loginButton {
+	position: absolute;
+	left: 484px;
+	top: 160px;
+	z-index: 999;	
+	cursor: pointer;	
+}
+
+.passwordPanel {
+	position: absolute;
+	left: 252px;
+	top: 120px;
+	z-index: 999;	
+}
+
+.usernamePanel {
+	position: absolute;
+	left: 250px;
+	top: 88px;
+	z-index: 999;	
+}
+
+.sortableFlexTable {
+	width: 100%;	
+}
+
+.tasksTable {
+	padding-top: 8px;	
+}
+
+.tableHeaders {
+	height: 30px;
+	width: 100%;
+	background-image: url('images/tasks/table_head_slice_tile.png');
+	background-repeat: repeat-x;
+}
+
+.tableHeader {
+	width: 100%;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.dataTableHeader {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;		
+}
+
+.tableHeaderLabel {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.tableGrid {
+	width: 100%;
+	border: 1px solid #CCCACA;	
+}
+
+.tableScollPanel {
+	width: 100%;	
+}
+
+.tableCell {
+	border-right: 1px solid #CCCACA;
+	padding-left: 10px;
+}
+
+.tasksTableLink {
+	color: #0D5AA2;
+	text-decoration: underline;	
+	cursor: pointer;
+}
+
+.evenRow {
+	height: 20px;
+	background-color: #EEEEEE;	
+}
+
+.oddRow {
+	background-color: #FFFFFF;	
+}
+
+.pageCountLabel {
+	color: #437D05;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.newTaskPopup {
+	border-width: 0px;
+	z-index: 9999;
+}
+
+.tabPanel {
+	border: 1px solid #B9B8B8;
+}
+
+.addImage {
+	cursor: pointer;	
+}
+
+.addLabel {
+	color: #0D5AA2;
+	cursor: pointer;
+}
+
+.categoryHeader {
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	z-index: 9;		
+}
+
+.categoryPanel {
+	padding: 10px;
+}
+
+.subcategoriesPanel {
+	width: 100%;
+	border: 1px solid #B9B8B8;
+	background-color: #EEEDED;	
+	padding: 20px;	
+}
+
+.categoriesPanel {
+	background-color: #EEEDED;	
+}
+
+.tableHeader {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	font-color: black;
+}
+
+.arrowColumn {
+	width: 10px;
+}
+
+.infoPopup {
+	border: 3px solid #C9E87F;	
+}
+
+.infoPopupMainPanel {
+	padding: 16px;
+}
+
+.infoPopupIcon {
+	padding-right: 16px;	
+}
+
+.infoPopupHeader {
+	padding-bottom: 16px;	
+}
+
+.infoTable {
+	border-collapse: collapse;
+}
+
+.infoTableHeader {
+	background-color: #C9E87F;
+	text-align: left;	
+	font-weight: bold;
+	font-size: 12px;
+	height: 27px;
+	border-right: 1px solid #C9E87F;
+	padding-left: 10px;
+}
+
+.infoTableLeftCell {
+	text-align: right;
+	width: 110px;
+	font-size: 12px;
+	font-weight: bold;	
+	vertical-align: top;
+	padding-right: 10px;
+	padding-top: 10px;
+	border-right: 1px solid #C9E87F;
+}
+
+.infoTableRightCell {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.progressPopupPublished {
+	font-size: 12px;
+	color: #6B2A02;
+}
+
+.progressTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #F37321;
+}
+
+.progressTable {
+}
+
+.progressFooter {
+	width: 100%;
+	height: 47px;
+	background-color: #A8D04A;	
+}
+
+.progressTableWrapper {
+	padding-top: 12px;
+	padding-bottom: 16px;
+	width: 100%;
+}
+
+.dataCollectionPopup {
+	border-width: 0px;
+	z-index: 9999;
+}
+
+.dataCollectionTaskLabel {
+	font-size: 18px;
+	color: #F37321;	
+	padding-left: 10px;
+}
+
+.dataCollectionMediaHeader {
+	padding-left: 34px;
+	padding-top: 30px;
+}
+
+.subcategoryPanel {
+	color: black;
+	background-color: LightGray;
+	width: 100%;
+	font-size: 12px;	
+	padding-left: 40px;
+}
+
+.subcategoryLabel {
+	padding-bottom: 10px;	
+	padding-top: 10px;
+}
+
+.newBulletButton {
+	padding-left: 14px;
+	padding-top: 6px;	
+	padding-bottom: 20px;
+}
+
+.settingsPopup {
+	border-width: 0px;
+	z-index: 9999;
+}
+
+.settingsHeader {
+	padding-top: 20px;
+	padding-bottom: 16px;	
+}
+
+.manageUsersPanel-body {
+	border-left: 1px solid #C2C0C0;	
+	padding-top: 16px;
+	padding-left: 16px;
+}
+
+.displayOptionsPanel-body {
+	border-left: 1px solid #C2C0C0;	
+	padding-top: 16px;
+	padding-left: 16px;
+}
+
+.analystTasksPanel {
+	padding-left: 20px;	
+}
+
+.coordinatorTasksPanel {
+	padding-left: 20px;	
+	border-bottom: 1px solid #D4D3D3;
+}
+
+.settingMenuPanel {
+	padding-top: 16px;
+	padding-right: 16px;
+		
+}
+.manageUsersHeader {
+	padding-bottom: 30px;	
+}
+
+.userListTable {
+	padding-top: 10px;	
+}
+
+.addNewUserPopup {
+	z-index: 99999;
+}
+
+.newUserHeader {
+	width: 100%;
+	padding-left: 12px;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 20px;
+}
+
+.newUserEntryPanel {
+	border-right: 1px solid #D4D3D3;	
+	padding-right: 20px;
+}
+
+.newUserGroupPanel {
+	width: 200px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.newUserButtonPanel {
+	background-color: #D7EE9F;
+	height: 47px;
+	border-top: 1px solid #A8D0$A;
+	width: 100%;	
+}
+
+.displayOptionsLabel {
+	font-size: 14px;
+	font-weight: bold;
+	color: #346303;	
+}
